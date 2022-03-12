@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import { Button, Card, CardBody, CardImg, CardSubtitle, CardTitle } from 'reactstrap';
+import { Button, CardBody, CardImg, CardSubtitle, CardTitle } from 'reactstrap';
+import { ButtonStyled, CardStyled } from './styles';
 
 const ProductItem = (props) => {
 
@@ -26,16 +27,16 @@ const ProductItem = (props) => {
     }
 
     return (
-        <Card {...rest} onClick={redirect} style={{ cursor: 'pointer' }}>
+        <CardStyled {...rest} onClick={redirect} style={{ cursor: 'pointer' }}>
             <CardImg top src={image} alt="Card image cap" style={{ height: 220 }} />
             <CardBody>
                 <CardTitle tag="h5" style={{ height: 75, overflow: 'hidden' }}>{title}</CardTitle>
                 <div className="d-flex justify-content-between">
                     <CardSubtitle tag="h6" className="mt-0 pt-2 text-muted">{`$ ${price}`}</CardSubtitle>
-                    <Button onClick={addProduct}>Agregar</Button>
+                    <ButtonStyled onClick={addProduct} color="danger">Agregar</ButtonStyled>
                 </div>
             </CardBody>
-        </Card>
+        </CardStyled>
     )
 }
 
