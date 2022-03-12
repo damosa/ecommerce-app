@@ -1,8 +1,8 @@
-import ContentLayout from "./layouts/ContentLayout/ContentLayout";
+import RouterApp from "./RouterApp";
 
 const App = () => {
   return (
-    <ContentLayout></ContentLayout>
+    <RouterApp/>
   );
 }
 

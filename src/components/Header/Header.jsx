@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { NavbarBrand, NavbarToggler, NavItem, NavLink, Collapse, NavbarText, Nav } from 'reactstrap'
 import Logo from '../Logo/Logo';
 import { NavBarStyled } from './styles';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -27,8 +28,13 @@ const Header = () => {
                         navbar
                     >
                         <NavItem>
-                            <NavLink href="/components/">
+                            <NavLink tag={Link} to="/">
                                 Store
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink tag={Link} to="/detail/1">
+                                Detail
                             </NavLink>
                         </NavItem>
                     </Nav>

@@ -1,13 +1,15 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom';
+import { Container } from 'reactstrap';
 import Header from '../../components/Header/Header';
 
-const ContentLayout = ({children}) => {
+const ContentLayout = () => {
   return (
     <>
         <Header />
-        <div className="container">
-            {children}
-        </div>
+        <Container>
+          <Outlet />
+        </Container>
     </>
   )
 }
