@@ -1,8 +1,11 @@
+import CartProvider from "./contexts/CartContext";
 import RouterApp from "./RouterApp";
 
 const App = () => {
   return (
-    <RouterApp/>
+    <CartProvider>
+      <RouterApp />
+    </CartProvider>
   );
 }
 

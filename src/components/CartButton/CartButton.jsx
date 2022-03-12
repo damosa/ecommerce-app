@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Dropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import CartButtonItem from './CartButtonItem';
+import { useCartContext } from './../../contexts/CartContext/index';
 
 const CartSVG = () => {
     return (
@@ -10,19 +11,21 @@ const CartSVG = () => {
 
 const CartButton = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const {cart, total} = useCartContext();
+    console.log('cart', cart);
 
-    const toggle = () => setIsOpen(prevIsOpen => !prevIsOpen);
+    const toggle = () => cart.length !== 0 && setIsOpen(prevIsOpen => !prevIsOpen);
 
     return (
         <Dropdown isOpen={isOpen} toggle={toggle}>
             <DropdownToggle color="danger" caret>
                 <i><CartSVG /></i>
-                <span className="badge badge-success"></span>
+                <span className="badge">{cart.length}</span>
             </DropdownToggle>
             <DropdownMenu>
                 <CartButtonItem />
                 <DropdownItem divider />
-                <DropdownItem disabled>precio</DropdownItem>
+                <DropdownItem disabled>{`Precio total: $${total}`}</DropdownItem>
             </DropdownMenu>
         </Dropdown>
     )
