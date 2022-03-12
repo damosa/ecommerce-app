@@ -10,7 +10,7 @@ const checkStatus = (response) => {
 }
 
 const fetcher = (url, options) => {
-    return fetcher(url, options)
+    return fetch(url, options)
         .then(checkStatus)
         .then(res => res.json());
 }

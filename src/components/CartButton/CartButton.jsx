@@ -19,7 +19,7 @@ const CartButton = () => {
                 <i><CartSVG /></i>
                 <span className="badge badge-success"></span>
             </DropdownToggle>
-            <DropdownMenu right>
+            <DropdownMenu>
                 <CartButtonItem />
                 <DropdownItem divider />
                 <DropdownItem disabled>precio</DropdownItem>
