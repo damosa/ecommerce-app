@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import { Button, CardBody, CardImg, CardSubtitle, CardTitle } from 'reactstrap';
+import { CardBody, CardImg, CardSubtitle, CardTitle } from 'reactstrap';
 import { ButtonStyled, CardStyled } from './styles';
 
 const ProductItem = (props) => {
@@ -23,7 +23,7 @@ const ProductItem = (props) => {
 
     const addProduct = (event) => {
         event.stopPropagation();
-        props.addProductToCart(id);
+        addProductToCart();
     }
 
     return (

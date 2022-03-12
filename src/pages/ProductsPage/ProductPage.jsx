@@ -2,9 +2,11 @@ import React, { useEffect, useState } from 'react'
 import ProductItem from '../../components/ProductItem/ProductItem';
 import { getProducts } from './../../apis/products';
 import { ContainerStyled } from './style';
+import { useCartContext } from './../../contexts/CartContext/index';
 
 const ProductPage = () => {
     const [products, setProducts] = useState(null);
+    const {addProductToCart} = useCartContext();
 
     useEffect(() => {
         getProducts()
@@ -26,7 +28,7 @@ const ProductPage = () => {
                         id={id}
                         title={name}
                         price={price}
-                        addProductToCart={() => {}}
+                        addProductToCart={() => addProductToCart(product)}
                         image={image_medium_url}
                     />);
                 })
