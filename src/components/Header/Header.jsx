@@ -3,6 +3,7 @@ import { NavbarBrand, NavbarToggler, NavItem, NavLink, Collapse, NavbarText, Nav
 import Logo from '../Logo/Logo';
 import { NavBarStyled } from './styles';
 import { Link } from 'react-router-dom';
+import CartButton from '../CartButton/CartButton';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -38,9 +39,7 @@ const Header = () => {
                             </NavLink>
                         </NavItem>
                     </Nav>
-                    <NavbarText>
-                        Carrito
-                    </NavbarText>
+                    <CartButton />
                 </Collapse>
             </NavBarStyled>
         </header>
