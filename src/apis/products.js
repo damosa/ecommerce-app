@@ -6,3 +6,10 @@ export const getProducts = async () => {
     })
     return response;
 }
+
+export const getDetailProducts = async (idProduct) => {
+    const response = await fetcher(`https://squad-100.supermercap.com/api/2.0/stores/63/products/${idProduct}`, {
+        method: 'GET'
+    })
+    return response;
+}

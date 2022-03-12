@@ -33,11 +33,6 @@ const Header = () => {
                                 Store
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink tag={Link} to="/detail/1">
-                                Detail
-                            </NavLink>
-                        </NavItem>
                     </Nav>
                     <CartButton />
                 </Collapse>

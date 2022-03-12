@@ -12,6 +12,10 @@ const ProductPage = () => {
         .catch(error => console.log('error', error))
     }, []);
 
+    if(!products) {
+        return <h1>Loading...</h1>;
+    }
+
     return (
         <ContainerStyled>
             {products?.map(product => {

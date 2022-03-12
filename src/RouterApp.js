@@ -1,6 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route, } from 'react-router-dom'
 import ContentLayout from './layouts/ContentLayout/ContentLayout'
+import DetailPage from './pages/DetailPage/DetailPage';
 import ProductPage from './pages/ProductsPage/ProductPage';
 
 const RouterApp = () => {
@@ -9,7 +10,7 @@ const RouterApp = () => {
             <Routes>
                 <Route path="/" element={<ContentLayout/>}>
                     <Route index element={<ProductPage/>} />
-                    <Route path="detail/:teamId" element={<h1>detalle del producto</h1>} />
+                    <Route path="detail/:itemId" element={<DetailPage/>} />
                 </Route>
             </Routes>
         </BrowserRouter>
