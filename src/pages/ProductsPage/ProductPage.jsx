@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import ProductItem from '../../components/ProductItem/ProductItem';
 import { getProducts } from './../../apis/products';
+import { ContainerStyled } from './style';
 
 const ProductPage = () => {
     const [products, setProducts] = useState(null);
@@ -11,12 +13,21 @@ const ProductPage = () => {
     }, []);
 
     return (
-        <div>
+        <ContainerStyled>
             {products?.map(product => {
-                return(<p>{product.attributes.name}</p>);
+                const {id, attributes: { name, price, image_medium_url } } = product;
+                return(
+                    <ProductItem 
+                        key={id}
+                        id={id}
+                        title={name}
+                        price={price}
+                        addProductToCart={() => {}}
+                        image={image_medium_url}
+                    />);
                 })
             }
-        </div>
+        </ContainerStyled>
     )
 }
 
