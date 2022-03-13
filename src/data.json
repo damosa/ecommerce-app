@@ -1,0 +1,952 @@
+{
+    "data": [
+        {
+            "type": "product",
+            "id": "590694",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/590694",
+                "name": "Vino Tinto Vehemente",
+                "slug": "vino-tinto-vehemente-750-ml",
+                "type_product": "Simple",
+                "price": 14990,
+                "special_price": 12000,
+                "public_price": 0,
+                "description": "",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/4bba401e-41dd-4592-8775-ab095c7dd344.jpg",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/4bba401e-41dd-4592-8775-ab095c7dd344.jpg",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/4bba401e-41dd-4592-8775-ab095c7dd344.jpg",
+                "image_app_url": "https://static.merqueo.com/images/products/app/4bba401e-41dd-4592-8775-ab095c7dd344.jpg",
+                "is_best_price": false,
+                "quantity": "750",
+                "unit": "Ml",
+                "has_warning": true,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Mililitro a $ 19,99"
+                ],
+                "volume": 1200,
+                "weight": 1000,
+                "status": true,
+                "sponsored": false,
+                "template_video": null,
+                "slugs": {
+                    "city": "bogota",
+                    "department": "vinos",
+                    "shelf": "vino-tinto",
+                    "product": "vino-tinto-vehemente-750-ml"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": []
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "393"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "1315"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "567554",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/567554",
+                "name": "Helado Cremery Vainilla 1L",
+                "slug": "helado-cremery-vainilla-1l-600-gr",
+                "type_product": "Simple",
+                "price": 9990,
+                "special_price": 5500,
+                "public_price": 0,
+                "description": "",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/9eb9ad85-9942-4783-b5f8-caa05d935c66.jpg",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/9eb9ad85-9942-4783-b5f8-caa05d935c66.jpg",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/9eb9ad85-9942-4783-b5f8-caa05d935c66.jpg",
+                "image_app_url": "https://static.merqueo.com/images/products/app/9eb9ad85-9942-4783-b5f8-caa05d935c66.jpg",
+                "is_best_price": false,
+                "quantity": "600",
+                "unit": "Gr",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Gramo a $ 16,65"
+                ],
+                "volume": 1694,
+                "weight": 600,
+                "status": true,
+                "sponsored": false,
+                "template_video": null,
+                "slugs": {
+                    "city": "bogota",
+                    "department": "congelados",
+                    "shelf": "helados",
+                    "product": "helado-cremery-vainilla-1l-600-gr"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": []
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "24"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "1607"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "196416",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/196416",
+                "name": "Papel Higiénico Serenity Triple Hoja",
+                "slug": "papel-higienico-serenity-triple-hoja-12-und",
+                "type_product": "Simple",
+                "price": 13890,
+                "special_price": null,
+                "public_price": 0,
+                "description": "",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/d082d857-1cf8-42f8-b00e-1f2640c32b37.jpg",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/d082d857-1cf8-42f8-b00e-1f2640c32b37.jpg",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/d082d857-1cf8-42f8-b00e-1f2640c32b37.jpg",
+                "image_app_url": "https://static.merqueo.com/images/products/app/d082d857-1cf8-42f8-b00e-1f2640c32b37.jpg",
+                "is_best_price": false,
+                "quantity": "12",
+                "unit": "Und",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Unidad a $ 1.157,50"
+                ],
+                "volume": 9537,
+                "weight": 480,
+                "status": true,
+                "sponsored": false,
+                "template_video": {
+                    "layout": "fullscreen",
+                    "cloudinary_video_id": "prueba_video_en_producto_web_3_exyoiy",
+                    "url": {
+                        "resolution_640x360": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_640,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_3_exyoiy.mp4",
+                        "resolution_960x540": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_960,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_3_exyoiy.mp4",
+                        "resolution_1280x720": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_1280,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_3_exyoiy.mp4",
+                        "resolution_1920x1080": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_1920,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_3_exyoiy.mp4"
+                    },
+                    "config": {
+                        "play_controls": true,
+                        "jump_controls": true,
+                        "progress_bar": true,
+                        "sound_controls": true,
+                        "play_time": true,
+                        "show_title": true,
+                        "show_subtitle": true,
+                        "slide_up_layer": true,
+                        "muted": true,
+                        "loop": false,
+                        "autoplay": true
+                    }
+                },
+                "slugs": {
+                    "city": "bogota",
+                    "department": "aseo-del-hogar",
+                    "shelf": "bano",
+                    "product": "papel-higienico-serenity-triple-hoja-12-und"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": []
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "15"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "13"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "650290",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/650290",
+                "name": "Cepillo de Dientes O-Dent",
+                "slug": "cepillo-de-dientes-o-dent-2-und",
+                "type_product": "Simple",
+                "price": 3790,
+                "special_price": null,
+                "public_price": 0,
+                "description": "",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/62eb8bf0-2d8f-4799-b3d2-7747ed7b862e.png",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/62eb8bf0-2d8f-4799-b3d2-7747ed7b862e.png",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/62eb8bf0-2d8f-4799-b3d2-7747ed7b862e.png",
+                "image_app_url": "https://static.merqueo.com/images/products/app/62eb8bf0-2d8f-4799-b3d2-7747ed7b862e.png",
+                "is_best_price": false,
+                "quantity": "2",
+                "unit": "Und",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Unidad a $ 1.895,00"
+                ],
+                "volume": 345,
+                "weight": 100,
+                "status": true,
+                "sponsored": false,
+                "template_video": null,
+                "slugs": {
+                    "city": "bogota",
+                    "department": "cuidado-personal",
+                    "shelf": "cuidado-bucal",
+                    "product": "cepillo-de-dientes-o-dent-2-und"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": []
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "18"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "29"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "128211",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/128211",
+                "name": "Arroz La Gran Nona Tradicional",
+                "slug": "arroz-la-gran-nona-tradicional-5-kg",
+                "type_product": "Simple",
+                "price": 14990,
+                "special_price": 11990,
+                "public_price": 17000,
+                "description": "<p>*Imagen de referencia. No incluye otros bienes o productos exhibidos en las imagenes de referencia. &iexcl;Arroz Tradicional La Gran Nona, la evoluci&oacute;n de la herencia! - Granos seleccionados y sin impurezas. - Opci&oacute;n saludable y diferente para cada d&iacute;a. - La Gran Nona es el complice perfecto para una alimentacion saludable. - &iquest;Qu&eacute; tal arroz blanco suave y delicioso? &iexcl;Pru&eacute;balos ya!</p>",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/93c755cc-90a6-4725-beaa-5e428c845a72.jpg",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/93c755cc-90a6-4725-beaa-5e428c845a72.jpg",
+                "special_price_expiration_date": null,
+                "special_price_starting_date": null,
+                "image_small_url": "https://static.merqueo.com/images/products/small/93c755cc-90a6-4725-beaa-5e428c845a72.jpg",
+                "image_app_url": "https://static.merqueo.com/images/products/app/93c755cc-90a6-4725-beaa-5e428c845a72.jpg",
+                "is_best_price": false,
+                "quantity": "5",
+                "unit": "Kg",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Gramo a $ 3,00"
+                ],
+                "volume": 6000,
+                "weight": 5000,
+                "status": true,
+                "sponsored": false,
+                "template_video": {
+                    "layout": "fullscreen",
+                    "cloudinary_video_id": "prueba_video_en_producto_web_1_wjnqj4",
+                    "url": {
+                        "resolution_640x360": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_640,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_1_wjnqj4.mp4",
+                        "resolution_960x540": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_960,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_1_wjnqj4.mp4",
+                        "resolution_1280x720": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_1280,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_1_wjnqj4.mp4",
+                        "resolution_1920x1080": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_1920,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_1_wjnqj4.mp4"
+                    },
+                    "config": {
+                        "play_controls": true,
+                        "jump_controls": true,
+                        "progress_bar": true,
+                        "sound_controls": true,
+                        "play_time": true,
+                        "show_title": true,
+                        "show_subtitle": true,
+                        "slide_up_layer": true,
+                        "muted": true,
+                        "loop": false,
+                        "autoplay": true
+                    }
+                },
+                "slugs": {
+                    "city": "bogota",
+                    "department": "arroz-granos-pastas",
+                    "shelf": "arroz",
+                    "product": "arroz-la-gran-nona-tradicional-5-kg"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": [
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9424"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9396"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "71395"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9382"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9410"
+                        }
+                    ]
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "395"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "1327"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "17355",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/17355",
+                "name": "Pan Tajado Blanco Artisan 1986",
+                "slug": "pan-tajado-blanco-artisan-1986-500-gr",
+                "type_product": "Simple",
+                "price": 3190,
+                "special_price": null,
+                "public_price": 0,
+                "description": "<p>*Imagen de referencia. No incluye otros bienes o productos exhibidos en las imagenes de referencia. iPan Tajado Artisan 1986, la mejor tradici&oacute;n panadera! - Nuestro pan tajado cuidadosamente horneado para compartir con tu familia y amigos. - Combinan perfecto con todo tipo de ingredientes, dulces o salados en desayunos, onces, brunch o cenas. iPru&eacute;balo ya!.</p>",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/fe679e25-a884-41fb-afde-30923a614e80.png",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/fe679e25-a884-41fb-afde-30923a614e80.png",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/fe679e25-a884-41fb-afde-30923a614e80.png",
+                "image_app_url": "https://static.merqueo.com/images/products/app/fe679e25-a884-41fb-afde-30923a614e80.png",
+                "is_best_price": false,
+                "quantity": "500",
+                "unit": "Gr",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Gramo a $ 6,38"
+                ],
+                "volume": 2376,
+                "weight": 500,
+                "status": true,
+                "sponsored": false,
+                "template_video": null,
+                "slugs": {
+                    "city": "bogota",
+                    "department": "pan-arepas-y-galletas",
+                    "shelf": "panes",
+                    "product": "pan-tajado-blanco-artisan-1986-500-gr"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": [
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9712"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "27120"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9680"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "32355"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "27092"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9664"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "27134"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "27106"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "31457"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "31469"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "31445"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "9696"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "31433"
+                        }
+                    ]
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "63"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "259"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "567549",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/567549",
+                "name": "Helado Cremery Vainilla Medio L",
+                "slug": "helado-cremery-vainilla-medio-l-300-gr",
+                "type_product": "Simple",
+                "price": 5990,
+                "special_price": null,
+                "public_price": 0,
+                "description": "",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/5a4d1b96-bd74-49c4-b70a-e1bdc2d532ba.jpg",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/5a4d1b96-bd74-49c4-b70a-e1bdc2d532ba.jpg",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/5a4d1b96-bd74-49c4-b70a-e1bdc2d532ba.jpg",
+                "image_app_url": "https://static.merqueo.com/images/products/app/5a4d1b96-bd74-49c4-b70a-e1bdc2d532ba.jpg",
+                "is_best_price": false,
+                "quantity": "300",
+                "unit": "Gr",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Gramo a $ 19,97"
+                ],
+                "volume": 1100,
+                "weight": 500,
+                "status": true,
+                "sponsored": false,
+                "template_video": null,
+                "slugs": {
+                    "city": "bogota",
+                    "department": "congelados",
+                    "shelf": "helados",
+                    "product": "helado-cremery-vainilla-medio-l-300-gr"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": []
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "24"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "1607"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "553787",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/553787",
+                "name": "Cereal Aros Frutales Hocus Pokus",
+                "slug": "cereal-aros-frutales-hocus-pokus-230-gr",
+                "type_product": "Simple",
+                "price": 0,
+                "special_price": null,
+                "public_price": 0,
+                "description": "",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/70b07f55-4bf3-43ab-986e-605dfe51c5cd.jpg",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/70b07f55-4bf3-43ab-986e-605dfe51c5cd.jpg",
+                "special_price_expiration_date": "2022-01-28T12:22:14.000000Z",
+                "special_price_starting_date": "2022-01-06T12:22:14.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/70b07f55-4bf3-43ab-986e-605dfe51c5cd.jpg",
+                "image_app_url": "https://static.merqueo.com/images/products/app/70b07f55-4bf3-43ab-986e-605dfe51c5cd.jpg",
+                "is_best_price": false,
+                "quantity": "230",
+                "unit": "Gr",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Gramo a $ 16,74"
+                ],
+                "volume": 2700,
+                "weight": 230,
+                "status": true,
+                "sponsored": false,
+                "template_video": null,
+                "slugs": {
+                    "city": "bogota",
+                    "department": "despensa",
+                    "shelf": "cereales",
+                    "product": "cereal-aros-frutales-hocus-pokus-230-gr"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": []
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "19"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "15"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "20283",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/20283",
+                "name": "Chocolate de Mesa La Chocolatera Del Cacao Tradicional",
+                "slug": "chocolate-de-mesa-la-chocolatera-del-cacao-tradicional-500-gr",
+                "type_product": "Simple",
+                "price": 4990,
+                "special_price": null,
+                "public_price": 0,
+                "description": "<p>*Imagen de referencia. No incluye otros bienes o productos exhibidos en las imagenes de referencia. La Chocolatera del Cacao es la mejor opcion para llenar tus dias de sabor y energia. - Conserva su sabor tradicional llevandote a recordar momentos inolvidables. - Ideal para compartir en familia, desayunos y onces. - Puedes remojar un delicioso Mini Croissant Artisan 196 en &eacute;l, se convertir&aacute; en tu desayuno favorito.</p>",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/d9d9a713-4c63-431e-8a0c-112e4388ba82.png",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/d9d9a713-4c63-431e-8a0c-112e4388ba82.png",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/d9d9a713-4c63-431e-8a0c-112e4388ba82.png",
+                "image_app_url": "https://static.merqueo.com/images/products/app/d9d9a713-4c63-431e-8a0c-112e4388ba82.png",
+                "is_best_price": false,
+                "quantity": "500",
+                "unit": "Gr",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Gramo a $ 9,98"
+                ],
+                "volume": 1104,
+                "weight": 500,
+                "status": true,
+                "sponsored": false,
+                "template_video": {
+                    "layout": "fullscreen",
+                    "cloudinary_video_id": "prueba_video_en_producto_web_2_k7iuhe",
+                    "url": {
+                        "resolution_640x360": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_640,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_2_k7iuhe.mp4",
+                        "resolution_960x540": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_960,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_2_k7iuhe.mp4",
+                        "resolution_1280x720": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_1280,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_2_k7iuhe.mp4",
+                        "resolution_1920x1080": "https://res.cloudinary.com/merqueo/video/upload/c_scale,w_1920,q_auto,c_pad,b_black/portrait_product_video/prueba_video_en_producto_web_2_k7iuhe.mp4"
+                    },
+                    "config": {
+                        "play_controls": true,
+                        "jump_controls": true,
+                        "progress_bar": true,
+                        "sound_controls": true,
+                        "play_time": true,
+                        "show_title": true,
+                        "show_subtitle": true,
+                        "slide_up_layer": true,
+                        "muted": true,
+                        "loop": false,
+                        "autoplay": true
+                    }
+                },
+                "slugs": {
+                    "city": "bogota",
+                    "department": "cafe-te-y-chocolate",
+                    "shelf": "chocolate-de-mesa",
+                    "product": "chocolate-de-mesa-la-chocolatera-del-cacao-tradicional-500-gr"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": []
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "94"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "6"
+                    }
+                }
+            }
+        },
+        {
+            "type": "product",
+            "id": "566641",
+            "attributes": {
+                "href": "https://squad-100.supermercap.com/api/2.0/stores/63/products/566641",
+                "name": "Jugo Néctar Naranja Canasta Selecta",
+                "slug": "jugo-nectar-naranja-canasta-selecta-1000-ml",
+                "type_product": "Simple",
+                "price": 0,
+                "special_price": null,
+                "public_price": 0,
+                "description": "",
+                "warehouse_id": null,
+                "first_order_special_price": false,
+                "store_id": 63,
+                "discount_percentage": null,
+                "quantity_special_price": null,
+                "image_large_url": "https://static.merqueo.com/images/products/large/94b8e27e-5cd5-4ad3-a1fc-91386baee559.png",
+                "image_medium_url": "https://static.merqueo.com/images/products/medium/94b8e27e-5cd5-4ad3-a1fc-91386baee559.png",
+                "special_price_expiration_date": "2022-01-17T12:32:10.000000Z",
+                "special_price_starting_date": "2022-01-13T12:32:10.000000Z",
+                "image_small_url": "https://static.merqueo.com/images/products/small/94b8e27e-5cd5-4ad3-a1fc-91386baee559.png",
+                "image_app_url": "https://static.merqueo.com/images/products/app/94b8e27e-5cd5-4ad3-a1fc-91386baee559.png",
+                "is_best_price": false,
+                "quantity": "1000",
+                "unit": "Ml",
+                "has_warning": false,
+                "delivery_discount_start_date": null,
+                "delivery_discount_amount": 0,
+                "is_marketplace": false,
+                "marketplace_delivery_days": null,
+                "pum": [
+                    "Mililitro a $ 4,15"
+                ],
+                "volume": 17280,
+                "weight": 1000,
+                "status": true,
+                "sponsored": false,
+                "template_video": null,
+                "slugs": {
+                    "city": "bogota",
+                    "department": "bebidas",
+                    "shelf": "jugos-y-nectares",
+                    "product": "jugo-nectar-naranja-canasta-selecta-1000-ml"
+                }
+            },
+            "relationships": {
+                "storeProductCatalogTags": {
+                    "data": [
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46677"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46617"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46587"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46501"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46476"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46566"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46602"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46491"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "47225"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46464"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46521"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46541"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "47126"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46511"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46576"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46556"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46561"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46481"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46692"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46707"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "47121"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46632"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46571"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46551"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46662"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46647"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46581"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46531"
+                        },
+                        {
+                            "type": "storeProductCatalogTags",
+                            "id": "46471"
+                        }
+                    ]
+                },
+                "department": {
+                    "data": {
+                        "type": "department",
+                        "id": "22"
+                    }
+                },
+                "shelf": {
+                    "data": {
+                        "type": "shelf",
+                        "id": "25"
+                    }
+                }
+            }
+        }
+    ],
+    "included": [
+        {
+            "type": "storeProductCatalogTags",
+            "id": "27482",
+            "attributes": {
+                "store_product_id": 512394,
+                "tag": "STORYbe6b158109a1c09afbbf2da569e91363"
+            }
+        },
+        {
+            "type": "storeProductCatalogTags",
+            "id": "26362",
+            "attributes": {
+                "store_product_id": 512394,
+                "tag": "STORYda43826abdd22383d7c94c6bfd97cfd5"
+            }
+        },
+        {
+            "type": "shelf",
+            "id": "1588",
+            "attributes": {
+                "name": "Panes Congelados",
+                "slug": "panes-congelados",
+                "store_id": 63,
+                "has_warning": false,
+                "description": "Pan congelado"
+            }
+        },
+        {
+            "type": "storeProductCatalogTags",
+            "id": "71394",
+            "attributes": {
+                "store_product_id": 128208,
+                "tag": "STORY632be01a6bfd11b348cfee5481cdba5f"
+            }
+        }
+    ],
+    "meta": {
+        "pagination": {
+            "total": 15,
+            "count": 15,
+            "per_page": 15,
+            "current_page": 1,
+            "total_pages": 1
+        }
+    },
+    "links": {
+        "self": "/?page=1",
+        "first": "/?page=1",
+        "last": "/?page=1"
+    }
+  }
