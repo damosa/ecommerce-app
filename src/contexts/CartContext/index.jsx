@@ -6,6 +6,10 @@ const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
     const [total, setTotal] = useState(0);
 
+    const setCartLocalStorage = (cart) => {
+        localStorage.setItem('cart', JSON.stringify(cart));
+    }
+
     const addProductToCart = (product) => {
         const { id, attributes: { price, name } } = product;
         const includeProduct = cart.some(item => item.id === id);
@@ -16,6 +20,7 @@ const CartProvider = ({ children }) => {
             const copyCart = JSON.parse(JSON.stringify(cart));
             copyCart.push(newObjectProduct);
             setCart(copyCart);
+            setCartLocalStorage(copyCart);
         }
     }
 
@@ -32,13 +37,20 @@ const CartProvider = ({ children }) => {
             return item.quantity !== 0;
         });
         setCart(newCart);
+        setCartLocalStorage(newCart);
     }
 
     useEffect(() => {
-        console.log('cart cambió')
         const newtotal = cart.reduce((acu, value) => acu + ((value.price * value.quantity) || 0), 0);
         setTotal(newtotal);
     }, [cart])
+
+    useEffect(() => {
+        const localCart = JSON.parse(localStorage.getItem('cart'));
+        if(localCart) {
+            setCart(localCart);
+        }
+    }, [])
 
     return (
         <CartContextProvider.Provider value={{ cart, addProductToCart, total, handleQuantity }}>
